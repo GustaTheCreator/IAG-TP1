@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+
+# Build and packaging
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
+
+# Local generated outputs
+student_start_pack/artifacts/
+student_start_pack/exported_data/
