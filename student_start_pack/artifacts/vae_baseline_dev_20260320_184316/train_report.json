@@ -1,0 +1,35 @@
+{
+  "config": {
+    "run_name": "vae_baseline_dev",
+    "seed": 42,
+    "batch_size": 64,
+    "epochs": 3,
+    "lr": 0.0002,
+    "beta_kl": 1.0,
+    "latent_dim": 128,
+    "use_csv_subset": true,
+    "max_train_steps_per_epoch": 200
+  },
+  "history": [
+    {
+      "loss_total": 0.06123682790121455,
+      "loss_recon": 0.0608300013811725,
+      "loss_kl": 0.00040682658958074544,
+      "epoch": 1
+    },
+    {
+      "loss_total": 0.05567760155743854,
+      "loss_recon": 0.0513381672797689,
+      "loss_kl": 0.004339434164961812,
+      "epoch": 2
+    },
+    {
+      "loss_total": 0.05264063260168027,
+      "loss_recon": 0.047000430310797536,
+      "loss_kl": 0.005640202367998612,
+      "epoch": 3
+    }
+  ],
+  "checkpoint_path": "artifacts/vae_baseline_dev_20260320_184316/vae.pt",
+  "preview_grid_path": "artifacts/vae_baseline_dev_20260320_184316/samples_grid.png"
+}

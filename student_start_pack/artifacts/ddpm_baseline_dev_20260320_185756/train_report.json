@@ -1,0 +1,23 @@
+{
+  "config": {
+    "run_name": "ddpm_baseline_dev",
+    "seed": 42,
+    "epochs": 2,
+    "lr": 0.0002,
+    "timesteps": 100,
+    "use_csv_subset": true,
+    "max_train_steps_per_epoch": 150
+  },
+  "history": [
+    {
+      "loss_mse": 0.6015990920861563,
+      "epoch": 1
+    },
+    {
+      "loss_mse": 0.3186579769849777,
+      "epoch": 2
+    }
+  ],
+  "model_path": "artifacts/ddpm_baseline_dev_20260320_185756/ddpm_model.pt",
+  "preview_grid_path": "artifacts/ddpm_baseline_dev_20260320_185756/samples_grid.png"
+}
