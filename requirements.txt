@@ -1,0 +1,14 @@
+# Core runtime dependencies for this project.
+# For fully reproducible environments, use student_start_pack/requirements_lock.txt.
+
+datasets==4.8.3
+huggingface_hub==1.7.2
+kaggle==2.0.0
+matplotlib==3.10.8
+numpy==1.26.4
+pandas==3.0.1
+pillow==12.1.1
+torch==2.10.0
+torchmetrics==1.9.0
+torchvision==0.25.0
+tqdm==4.67.3
